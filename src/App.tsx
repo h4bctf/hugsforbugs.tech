@@ -20,7 +20,7 @@ function App() {
             </a>
           </li>
           <li class="px-3 hover:bg-black">
-            <a href="" class="text-white">
+            <a href="#Team" class="text-white">
               Team
             </a>
           </li>
