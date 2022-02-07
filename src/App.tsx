@@ -15,6 +15,11 @@ function App() {
       <div class="w-1/3">
         <ul class="flex justify-evenly font-mono font-extrabold ">
           <li class="px-3 hover:bg-black">
+            <a href="#Home" class="text-white">
+              Home
+            </a>
+          </li>
+          <li class="px-3 hover:bg-black">
             <a href="#About" class="text-white">
               About
             </a>
