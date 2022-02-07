@@ -1,7 +1,7 @@
 import react from "React";
 
 
-function about() {
+const about: React.FC = ()=> {
 	return (
 		<div
 			id="About"
