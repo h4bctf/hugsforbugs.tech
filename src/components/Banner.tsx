@@ -1,4 +1,4 @@
-import react from "React";
+import React from 'react'
 
 const banner: React.FC =()=> {
 	return (

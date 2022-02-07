@@ -1,4 +1,4 @@
-import react from "React";
+import React from 'react'
 
 
 const about: React.FC = ()=> {
@@ -11,7 +11,7 @@ const about: React.FC = ()=> {
 				<div>
 					<h1 className="mx-36 text-6xl font-mono flex mr">About Us</h1>
 				</div>
-				<div classNameName=" flex justify-center">
+				<div className=" flex justify-center">
 					<p className="w-1/2 font-mono mx-28 sm:justify-end">
 						HugsForBugs is an international community where we play
 						CTFs and learn things together. We play around once or
