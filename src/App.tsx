@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
   return (
-    <div class="items-center flex justify-between px-10 bg-[#0A0A0A] h-full sticky top-0 ">
+    <div class="w-full items-center flex justify-between px-10 bg-[#0A0A0A] h-full sticky top-0 ">
       <div>
         <img
           class="
