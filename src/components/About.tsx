@@ -13,7 +13,7 @@ const about: React.FC = ()=> {
 				</div>
 				<div className=" flex justify-center">
 					<p className="container w-1/2 font-mono mx-28 flex-auto">
-						HugsForBugs is an international community where we play
+						HugsForBugs is an international community where we compete in
 						CTFs and learn things together. We play around once or
 						twice a month or so and aren't super hardcore. No one
 						will expect you to stay up all night two nights in a
