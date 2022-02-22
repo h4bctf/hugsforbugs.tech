@@ -3,7 +3,7 @@ import React from 'react';
  const Navbar: React.FC = () => {
   return (
 	  <>
-	   <div className="w-full items-center flex justify-between px-10 bg-[#0A0A0A] h-24 fixed top-0 bg-opacity-20 backdrop-filter backdrop-blur-lg">
+	   <div className="w-full items-center flex justify-between px-10 bg-[#0A0A0A]-100 h-24 fixed top-0 bg-opacity-10 backdrop-filter backdrop-blur-lg">
       <div>
         <img
           className="
