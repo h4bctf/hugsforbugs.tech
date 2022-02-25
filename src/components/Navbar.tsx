@@ -58,23 +58,23 @@ import React, { useState } from 'react'
           </button>
          {openDrop && (
    <div className='absolute top-8 right-0 bg-[#337Bd4]'>
-       <ul className=" pt-1 pb-1 flex flex-col justify-evenly font-mono font-extrabold sm:hidden">
-          <li className="px-3  pb-1 hover:opacity-30">
+       <ul className="flex flex-col justify-evenly font-mono font-extrabold sm:hidden">
+          <li className="px-3  py-1 hover:bg-[#22538f]">
             <a href="#About" className="cursor-pointer text-white text-lg opacity-70  hover:opacity-100">
               About
             </a>
           </li>
-          <li className="px-3 pb-1 hover:opacity-30">
+          <li className="px-3 py-1 hover:bg-[#22538f]">
             <a href="#Team" className="cursor-pointer text-white opacity-70 text-lg hover:opacity-100">
               Team
             </a>
           </li>
-          <li className="px-3 pb-1 hover:opacity-30">
+          <li className="px-3 py-1 hover:bg-[#22538f]">
             <a href="#Blogs" className="cursor-pointer text-white text-lg  opacity-70 hover:opacity-100">
               Blogs
             </a>
           </li>
-          <li className="px-3 pb-1 hover:opacity-30">
+          <li className="px-3 py-1 hover:bg-[#22538f]">
             <a href="" className="cursor-pointer text-white  opacity-70 text-lg hover:opacity-100">
               Contact
             </a>
