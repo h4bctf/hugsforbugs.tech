@@ -42,11 +42,14 @@ const banner: React.FC = () => {
       id="Home"
       className="HomepageCont"
     >
-      <img
+      {/* <img
         className="Typingheading"
         src="https://readme-typing-svg.herokuapp.com?font=Ubuntu+Mono&color=%23337BD4&size=30&duration=2507&center=true&vCenter=true&lines=It's+Pwi'ing+Time;Pwon+O'+Clock"
         alt=""
-      />
+      /> */}
+      <div className="homeHeadTxt">
+        <h1></h1>
+      </div>
 
     <div className="modal3d">
       <Canvas 
