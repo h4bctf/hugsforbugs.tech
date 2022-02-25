@@ -54,7 +54,7 @@ import React, { useState } from 'react'
             
           )} */}
             <button onClick={()=>{setOpenDrop(!openDrop)}} className="bg-transparent border-0">
-                 <i className="fa-solid fa-lg fa-bars text-[#337BD4]"></i>
+                 <i className="fa-solid fa-2x fa-bars text-[#337BD4]"></i>
           </button>
          {openDrop && (
    <div className='absolute top-8 right-0 bg-[#337Bd4]'>
