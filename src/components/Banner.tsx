@@ -42,13 +42,15 @@ const banner: React.FC = () => {
       id="Home"
       className="HomepageCont"
     >
+
       {/* <img
         className="Typingheading"
         src="https://readme-typing-svg.herokuapp.com?font=Ubuntu+Mono&color=%23337BD4&size=30&duration=2507&center=true&vCenter=true&lines=It's+Pwi'ing+Time;Pwon+O'+Clock"
         alt=""
       /> */}
-      <div className="homeHeadTxt">
-        <h1></h1>
+      <div className="homeHeadTxt ">
+        <h1 className=" text-[#337BD4] ">Segmentation <span >Fault</span></h1>
+        <img src="https://readme-typing-svg.herokuapp.com?color=%23337BD4&size=50&vCenter=true&height=53&width=230&lines=+........" alt="" />
       </div>
 
     <div className="modal3d">

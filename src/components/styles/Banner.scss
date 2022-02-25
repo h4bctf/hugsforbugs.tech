@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
 
 div.HomepageCont{
 	height: 100vh;
@@ -14,6 +15,22 @@ div.HomepageCont{
 
 	div.modal3d{
 		height: 50%;
+	}
+
+	div.homeHeadTxt {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		h1{
+		font-family: "Ubuntu Mono";
+		font-size: 4vw;
+		color: #A3A4A8;
+		span{
+			background:-webkit-linear-gradient(120deg,#1a4e8f,#64a8fa);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		}
 	}
 	
 }
