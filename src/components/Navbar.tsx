@@ -17,27 +17,27 @@ import React from 'react'
       <div className="w-1/3">
         <ul className="flex justify-evenly font-mono font-extrabold ">
           <li className="px-3">
-            <a href="#Home" className="cursor-pointer text-white hover:opacity-75">
+            <a href="#Home" className="cursor-pointer text-white opacity-70 hover:opacity-100">
               Home
             </a>
           </li>
           <li className="px-3">
-            <a href="#About" className="cursor-pointer text-white hover:opacity-75">
+            <a href="#About" className="cursor-pointer text-white opacity-70  hover:opacity-100">
               About
             </a>
           </li>
           <li className="px-3">
-            <a href="#Team" className="cursor-pointer text-white hover:opacity-75">
+            <a href="#Team" className="cursor-pointer text-white opacity-70  hover:opacity-100">
               Team
             </a>
           </li>
           <li className="px-3">
-            <a href="#Blogs" className="cursor-pointer text-white hover:opacity-75">
+            <a href="#Blogs" className="cursor-pointer text-white  opacity-70 hover:opacity-100">
               Blogs
             </a>
           </li>
           <li className="px-3">
-            <a href="" className="cursor-pointer text-white hover:opacity-75">
+            <a href="" className="cursor-pointer text-white  opacity-70  hover:opacity-100">
               Contact
             </a>
           </li>
