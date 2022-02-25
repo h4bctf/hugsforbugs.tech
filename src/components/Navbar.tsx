@@ -57,7 +57,7 @@ import React, { useState } from 'react'
                  <i className="fa-solid fa-2x fa-bars text-[#337BD4]"></i>
           </button>
          {openDrop && (
-   <div className='absolute top-8 right-0 bg-[#337Bd4]'>
+   <div className='absolute top-9 right-0 bg-[#337Bd4]'>
        <ul className="flex flex-col justify-evenly font-mono font-extrabold sm:hidden">
           <li className="px-3  py-1 hover:bg-[#22538f]">
             <a href="#About" className="cursor-pointer text-white text-lg opacity-70  hover:opacity-100">
