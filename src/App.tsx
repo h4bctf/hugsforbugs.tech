@@ -12,7 +12,7 @@ function App() {
    <>
    <Navbar/>
    <Banner/>
-   {/* <About/> */}
+   <About/>
    </>
   );
 }

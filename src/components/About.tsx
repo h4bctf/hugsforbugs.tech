@@ -1,13 +1,11 @@
 import React from 'react'
+import "./styles/About.scss"
 
 
-const about: React.FC = ()=> {
+const About: React.FC = ()=> {
 	return (
-		<div
-			id="About"
-			className=" sm:justify-start bg-black text-white flex justify-center items-center h-screen pb-10"
-		>
-			<div className="  flex justify-between px-10  w-full ">
+		<div id="About" className="h-screen w-full">
+			{/* <div className="  flex justify-between px-10  w-full ">
 				<div>
 					<h1 className="mx-36 text-6xl font-mono flex mr">About Us</h1>
 				</div>
@@ -24,9 +22,12 @@ const about: React.FC = ()=> {
 						bounty, and share silly memes.
 					</p>
 				</div>
+			</div> */}
+			<div className="w-full text-center ">
+				<h1 className="font-['Poppins'] text-[#fff]">About Us</h1>
 			</div>
 		</div>
 	);
 }
 
-export default about;
+export default About;
