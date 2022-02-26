@@ -42,13 +42,18 @@ const banner: React.FC = () => {
       id="Home"
       className="HomepageCont"
     >
-      <img
+
+      {/* <img
         className="Typingheading"
         src="https://readme-typing-svg.herokuapp.com?font=Ubuntu+Mono&color=%23337BD4&size=30&duration=2507&center=true&vCenter=true&lines=It's+Pwi'ing+Time;Pwon+O'+Clock"
         alt=""
-      />
+      /> */}
+      <div className=" text-center flex w-full justify-center flex-wrap flex-col sm:flex-row">
+        <h1 className="text-4xl font-['Clash Display'] font-bold text-[#d6d7db] sm:text-6xl ">Segmentation <span className="bg-clip-text text-transparent bg-gradient-to-tl from-[#1a4e8f] to-[#64a8fa] " >Fault</span></h1>
+        <img src="https://readme-typing-svg.herokuapp.com?color=%23337BD4&size=55&vCenter=true&height=40&width=230&lines=+........" alt="" />
+      </div>
 
-    <div className="modal3d">
+    <div className="modal3d mt-4">
       <Canvas 
       camera={{position: [6,5,600] , fov:6}}>
         <Lights/>
