@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
 import About from "./components/About"
+import JoinDiscord from "./components/JoinDiscord";
 
 
 
@@ -10,6 +11,7 @@ import About from "./components/About"
 function App() {
   return (
    <>
+   <JoinDiscord/>
    <Navbar/>
    <Banner/>
    <About/>
