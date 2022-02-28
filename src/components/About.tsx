@@ -4,7 +4,8 @@ import AboutIllust from "../assets/undraw_software_engineer_re_fyew.svg";
 
 const About: React.FC = () => {
   return (
-    <div id="About" className="h-screen w-full bg-[#11121A] flex flex-col justify-between ">
+    <div id="About" className="h-screen w-full bg-[#11121A] flex flex-col ">
+  <div className="w-full h-full sm:flex sm:items-center">
       <div className="pt-4 flex flex-col justify-evenly align-center h-3/5 sm:flex-row sm:h-2/5">
         <div className="w-full text-center sm:w-1/4">
           <h1 className="font-['Poppins'] text-[#fff] text-4xl pt-3">
@@ -29,9 +30,10 @@ const About: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className="w-full h-1/3  flex justify-center   p-4 sm:h-1/2">
+      <div className="w-full h-1/3  flex justify-center  p-4 sm:h-1/2 sm:hidden ">
         <img src={AboutIllust} alt="" className="h-auto w-full max-w-full " />
-      </div>
+      </div> 
+    </div> 
     </div>
   );
 };

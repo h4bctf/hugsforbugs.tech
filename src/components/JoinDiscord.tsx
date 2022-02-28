@@ -1,7 +1,7 @@
 const JoinDiscord: React.FC = () => {
   return (
     <>
-      <div className="fixed bottom-6 right-6 h-11 w-1/3 sm:w-40 md:w-48 md:max-h-20">
+      <div className="fixed z-50 bottom-10 right-10 h-11 w-1/3 sm:w-40 md:w-48 md:max-h-20">
         <button className="bg-[#5865F2] flex w-full h-full active:bg-[#293188]">
         <a href="https://discord.gg/adq5rQPSsZ" className="h-full w-full flex items-center">
 	 <div className="flex justify-center items-center bg-[#ffff] w-1/4 h-full">

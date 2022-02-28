@@ -40,7 +40,7 @@ const banner: React.FC = () => {
   return (
     <div
       id="Home"
-      className="HomepageCont"
+      className="HomepageCont "
     >
 
       {/* <img

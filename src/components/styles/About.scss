@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-div#About{
-	// background: url("../../assets/background.png");
-	// background-size: 100% 100%;
-	// background-attachment: fixed;
-	// filter: contrast(70%);
-	// filter: brightness(60%);
+div#About::after{
+	content: "";	
+	position: absolute;
+	width: 100%;
+	height: 15%;
+	background-color:#191a27;
+	z-index: 0;
+	clip-path: polygon(50% 40%, 0 0, 100% 0);
+}
+
+@media only screen and (min-width:640px){
+	div#About::after{
+		height: 30%;
+		clip-path: polygon(50%,70% ,0 0, 100% 0);
+	}
 }
