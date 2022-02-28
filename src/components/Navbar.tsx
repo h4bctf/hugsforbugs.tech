@@ -1,7 +1,25 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
  const Navbar: React.FC = () => {
    const [openDrop , setOpenDrop] = useState(false);
+
+  const dropRef = useRef();
+
+  useEffect(() => {
+  console.log(dropRef);
+  const handleClickOutside = (event: any) =>{
+    console.log(event);
+    
+    if(!dropRef.current?.contains(event.target)){
+      setOpenDrop(false)
+    }
+  }
+  document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown" , handleClickOutside)
+    }
+  }, [dropRef])
+  
   return (
 	  <>
 	   <nav className="w-full  z-20 items-center flex justify-between px-10 bg-[#0A0A0A] h-20 fixed top-0 bg-opacity-20  backdrop-blur-md ">
@@ -57,25 +75,25 @@ import React, { useState } from 'react'
                  <i className="fa-solid fa-2x fa-bars text-[#337BD4]"></i>
           </button>
          {openDrop && (
-   <div className='absolute z-30 top-9 right-0 bg-[#337Bd4]'>
+   <div ref={dropRef} className='absolute z-30 top-9 right-0 bg-[#337Bd4]' >
        <ul className="flex flex-col justify-evenly font-mono font-extrabold sm:hidden">
           <li className="px-3  py-1 hover:bg-[#22538f]">
-            <a href="#About" className="cursor-pointer text-white text-lg opacity-70  hover:opacity-100">
+            <a href="#About" className="cursor-pointer text-white text-lg opacity-100  hover:opacity-80">
               About
             </a>
           </li>
           <li className="px-3 py-1 hover:bg-[#22538f]">
-            <a href="#Team" className="cursor-pointer text-white opacity-70 text-lg hover:opacity-100">
+            <a href="#Team" className="cursor-pointer text-white opacity-100 text-lg hover:opacity-80">
               Team
             </a>
           </li>
           <li className="px-3 py-1 hover:bg-[#22538f]">
-            <a href="#Blogs" className="cursor-pointer text-white text-lg  opacity-70 hover:opacity-100">
+            <a href="#Blogs" className="cursor-pointer text-white text-lg  opacity-100 hover:opacity-80">
               Blogs
             </a>
           </li>
           <li className="px-3 py-1 hover:bg-[#22538f]">
-            <a href="" className="cursor-pointer text-white  opacity-70 text-lg hover:opacity-100">
+            <a href="" className="cursor-pointer text-white  opacity-100 text-lg hover:opacity-80">
               Contact
             </a>
           </li>

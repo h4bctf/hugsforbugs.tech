@@ -7,13 +7,13 @@ const About: React.FC = () => {
     <div id="About" className="h-screen w-full bg-[#11121A] flex flex-col ">
   <div className="w-full h-full sm:flex sm:items-center">
       <div className="pt-4 flex flex-col justify-evenly align-center h-3/5 sm:flex-row sm:h-2/5">
-        <div className="w-full text-center sm:w-1/4">
-          <h1 className="font-['Poppins'] text-[#fff] text-4xl pt-3">
+        <div className="w-full  text-center sm:w-1/4 sm:h-full sm:flex sm:justify-center sm:items-center">
+          <h1 className="font-['Poppins'] text-[#fff] text-4xl pt-3 sm:text-5xl">
             About Us
           </h1>
         </div>
         <div className=" flex justify-center w-full sm:w-1/2 overflow-hidden">
-          <p className="text-[#d3d3d3] font-['Poppins'] p-4 text-left text-md sm:text-lg">
+          <p className="text-[#d3d3d3] font-['Poppins'] p-4 text-left text-md sm:text-xl">
             HugsForBugs is an international{" "}
             <span className="underline decoration-red-600">community </span>{" "}
             where we compete in{" "}
