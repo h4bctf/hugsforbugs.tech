@@ -2,7 +2,7 @@ import React ,{Suspense ,  useRef} from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useLoader } from '@react-three/fiber'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
-import "../components/styles/Banner.scss"
+import "../styles/Banner.scss"
 
 
 const Modal = () =>{
@@ -50,7 +50,7 @@ const banner: React.FC = () => {
         alt=""
       /> */}
       <div className=" text-center flex w-full justify-center flex-wrap flex-col sm:flex-row">
-        <h1 className="text-4xl font-['Inter'] font-bold text-[#d6d7db] sm:text-6xl ">Segmentation <span className="bg-clip-text text-transparent bg-gradient-to-tl from-[#1a4e8f] to-[#64a8fa] " >Fault</span></h1>
+        <h1 className="text-5xl font-['Inter'] font-bold text-[#d6d7db] sm:text-7xl ">Segmentation <span className="bg-clip-text text-transparent bg-gradient-to-tl from-[#1a4e8f] to-[#64a8fa] " >Fault</span></h1>
         <img src="https://readme-typing-svg.herokuapp.com?color=%23337BD4&size=55&vCenter=true&height=40&width=230&lines=+........" alt="" />
       </div>
 

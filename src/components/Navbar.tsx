@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import {Link} from "react-router-dom"
 
  const Navbar: React.FC = () => {
    const [openDrop , setOpenDrop] = useState(false);
@@ -47,7 +48,7 @@ import React, { useEffect, useRef, useState } from 'react'
           </li>
           <li className="px-3">
             <a href="#Team" className="cursor-pointer text-white opacity-70  hover:opacity-100">
-              Team
+              <Link to="/team">Team</Link>
             </a>
           </li>
           <li className="px-3">

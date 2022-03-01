@@ -1,6 +1,6 @@
 import React from "react";
-import "../components/styles/About.scss";
-import AboutIllust from "../assets/undraw_software_engineer_re_fyew.svg";
+import "../styles/About.scss";
+import AboutIllust from "../../assets/undraw_software_engineer_re_fyew.svg";
 
 const About: React.FC = () => {
   return (

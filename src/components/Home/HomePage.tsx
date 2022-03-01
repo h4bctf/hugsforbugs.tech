@@ -1,7 +1,7 @@
 import Banner from "./Banner";
 import About from "./About";
 import { AnimatePresence, motion } from "framer-motion";
-import JoinDiscord from "../components/JoinDiscord";
+import JoinDiscord from "../JoinDiscord";
 
 const HomePage = () => {
   return (
