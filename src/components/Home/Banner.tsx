@@ -24,6 +24,8 @@ const Lights = () =>{
 
 const HTMLContent = () =>{
 const modelRef: any = useRef()
+console.log(modelRef);
+
 useFrame(()=>{
   modelRef.current.rotation.y += 0.02
 })
@@ -50,16 +52,15 @@ const banner: React.FC = () => {
         alt=""
       /> */}
       <div className=" text-center flex w-full justify-center flex-wrap flex-col sm:flex-row">
-        <h1 className="text-5xl font-['Inter'] font-bold text-[#d6d7db] sm:text-7xl ">Segmentation <span className="bg-clip-text text-transparent bg-gradient-to-tl from-[#1a4e8f] to-[#64a8fa] " >Fault</span></h1>
+        <h1 className="text-5xl font-['Inter'] font-bold text-[#ffffff] sm:text-7xl sm:text-extrabold ">Segmentation <span className="bg-clip-text text-transparent bg-gradient-to-tl from-[#1a4e8f] to-[#64a8fa] " >Fault</span></h1>
         <img src="https://readme-typing-svg.herokuapp.com?color=%23337BD4&size=55&vCenter=true&height=40&width=230&lines=+........" alt="" />
       </div>
 
     <div className="modal3d mt-4">
-      <Canvas 
-      camera={{position: [6,5,600] , fov:6}}>
+      <Canvas camera={{position: [6,5,600] , fov:6}}>
         <Lights/>
         <Suspense fallback={null}>
-          <HTMLContent/>
+          <HTMLContent />
           </Suspense>
        
       </Canvas> </div> 

@@ -9,7 +9,7 @@ const JoinDiscord: React.FC = () => {
         <div className="w-9/12 sm:w-3/5 h-10 flex justify-center content-center text-center mt-4">
           <h2 className="text-[#ffff] sm:text-lg opacity-80">Get support in dedicated channels , explore new ideas and work in Team in CTF's</h2>
         </div>
-        <div className="w-[38%] h-[2.9rem] sm:w-[25%] sm:h-14">
+        <div className="w-[40%] h-[2.9rem] sm:w-[25%] sm:h-14">
           <button className="w-full h-full bg-[#fff] rounded-xl hover:opacity-80">
             <a href="https://discord.gg/VNBzbsbfVK" className="w-full h-full">
               <div className="flex justify-evenly items-center ">

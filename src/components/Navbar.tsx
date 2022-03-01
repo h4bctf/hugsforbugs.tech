@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
  const Navbar: React.FC = () => {
    const [openDrop , setOpenDrop] = useState(false);
@@ -43,23 +43,17 @@ import {Link} from "react-router-dom"
           </li>
           <li className="px-3">
             <a href="#About" className="cursor-pointer text-white opacity-70  hover:opacity-100">
-              About
+            
             </a>
           </li>
           <li className="px-3">
-            <a href="#Team" className="cursor-pointer text-white opacity-70  hover:opacity-100">
-              <Link to="/team">Team</Link>
-            </a>
+              <Link to="/team" className='cursor-pointer text-white opacity-75 hover:opacity-100'>Team</Link>
           </li>
           <li className="px-3">
-            <a href="#Blogs" className="cursor-pointer text-white  opacity-70 hover:opacity-100">
-              Blogs
-            </a>
+          <Link to="/blog" className='cursor-pointer text-white opacity-75 hover:opacity-100'>Blog</Link> 
           </li>
           <li className="px-3">
-            <a href="" className="cursor-pointer text-white  opacity-70  hover:opacity-100">
-              Contact
-            </a>
+          <Link to="/contact" className="cursor-pointer text-white opacity-75 hover:opacity-100">Contact Us</Link>
           </li>
         </ul>
         <div className="flex sm:hidden">
