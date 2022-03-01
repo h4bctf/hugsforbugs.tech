@@ -1,10 +1,10 @@
 import React from "react";
-import "./styles/About.scss";
+import "../components/styles/About.scss";
 import AboutIllust from "../assets/undraw_software_engineer_re_fyew.svg";
 
 const About: React.FC = () => {
   return (
-    <div id="About" className="h-screen w-full bg-[#11121A] flex flex-col ">
+    <section id="About" className="h-screen w-full bg-[#11121A] flex flex-col ">
   <div className="w-full h-full sm:flex sm:items-center">
       <div className="pt-4 flex flex-col justify-evenly align-center h-3/5 sm:flex-row sm:h-2/5">
         <div className="w-full  text-center sm:w-1/4 sm:h-full sm:flex sm:justify-center sm:items-center">
@@ -34,7 +34,7 @@ const About: React.FC = () => {
         <img src={AboutIllust} alt="" className="h-auto w-full max-w-full " />
       </div> 
     </div> 
-    </div>
+    </section>
   );
 };
 

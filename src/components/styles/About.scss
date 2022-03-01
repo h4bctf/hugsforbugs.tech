@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-div#About::after{
+section#About::after{
 	content: "";	
 	position: absolute;
 	width: 100%;
@@ -11,7 +11,7 @@ div#About::after{
 }
 
 @media only screen and (min-width:640px){
-	div#About::after{
+	section#About::after{
 		height: 30%;
 		clip-path: polygon(50%,70% ,0 0, 100% 0);
 	}

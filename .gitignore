@@ -6,3 +6,7 @@ dist-ssr
 .git
 .vercel
 Modal
+
+.env
+.env.production
+.env.local

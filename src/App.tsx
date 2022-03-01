@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { Route , BrowserRouter ,Routes} from "react-router-dom";
 import Navbar from "./components/Navbar"
-import Banner from "./components/Banner"
-import About from "./components/About"
-import JoinDiscord from "./components/JoinDiscord";
+import Banner from "./Home/Banner"
+import About from "./Home/About"
+
+import HomePage from "./Home/HomePage";
 
 
 
@@ -11,10 +13,12 @@ import JoinDiscord from "./components/JoinDiscord";
 function App() {
   return (
    <>
-   <JoinDiscord/>
    <Navbar/>
-   <Banner/>
-   <About/>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomePage/>} /> 
+    </Routes>
+    </BrowserRouter> 
    </>
   );
 }
