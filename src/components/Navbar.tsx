@@ -4,7 +4,8 @@ import {Link} from "react-router-dom";
  const Navbar: React.FC = () => {
    const [openDrop , setOpenDrop] = useState(false);
 
-  const dropRef = useRef();
+  const dropRef = useRef<HTMLDivElement>(null);
+  // const inputField = React.useRef() as React.MutableRefObject<HTMLInputElement>
 
   useEffect(() => {
   console.log(dropRef);
@@ -25,25 +26,25 @@ import {Link} from "react-router-dom";
 	  <>
 	   <nav className="w-full  z-20 items-center flex justify-between px-10 bg-[#0A0A0A] h-20 fixed top-0 bg-opacity-20  backdrop-blur-md ">
       <div>
-      <a href="">
+     <Link to="/"> 
         <img
           className="
            w-20"
           src="https://ctftime.org/media/cache/8d/37/8d3746b689ba3c133cd3599d898b6a4b.png"
           alt="H4B"
-        />  </a> 
+        />  
+      </Link>
       </div>
+
 
       <div>
         <ul className="hidden justify-evenly font-mono font-extrabold sm:flex">
           <li className="px-3">
-            <a href="#Home" className="cursor-pointer text-white opacity-70 hover:opacity-100">
-              Home
-            </a>
+          <Link to="/" className='cursor-pointer text-white opacity-75 hover:opacity-100'>Home</Link> 
           </li>
           <li className="px-3">
             <a href="#About" className="cursor-pointer text-white opacity-70  hover:opacity-100">
-            
+           About 
             </a>
           </li>
           <li className="px-3">
