@@ -74,22 +74,18 @@ import {Link} from "react-router-dom";
    <div ref={dropRef} className='absolute z-30 top-9 right-0 bg-[#337Bd4]' >
        <ul className="flex flex-col justify-evenly font-mono font-extrabold sm:hidden">
           <li className="px-3  py-1 hover:bg-[#22538f]">
-            <a href="#About" className="cursor-pointer text-white text-lg opacity-100  hover:opacity-80">
-              About
-            </a>
+           <Link to="/#about" className="cursor-pointer text-white text-2xl opacity-100 hover:opacity-80">About</Link>
           </li>
-          <li className="px-3 py-1 hover:bg-[#22538f]">
-            <a href="#Team" className="cursor-pointer text-white opacity-100 text-lg hover:opacity-80">
-              Team
-            </a>
+          <li className="px-4 py-2 hover:bg-[#22538f]">
+           <Link to="/team" className="cursor-pointer text-white text-2xl opacity-100 hover:opacity-80">Team </Link> 
           </li>
-          <li className="px-3 py-1 hover:bg-[#22538f]">
-            <a href="#Blogs" className="cursor-pointer text-white text-lg  opacity-100 hover:opacity-80">
+          <li className="px-4 py-2 hover:bg-[#22538f]">
+            <a href="#Blogs" className="cursor-pointer text-white text-2xl  opacity-100 hover:opacity-80">
               Blogs
             </a>
           </li>
-          <li className="px-3 py-1 hover:bg-[#22538f]">
-            <a href="" className="cursor-pointer text-white  opacity-100 text-lg hover:opacity-80">
+          <li className="px-4 py-2 hover:bg-[#22538f]">
+            <a href="" className="cursor-pointer text-white  opacity-100 text-2xl hover:opacity-80">
               Contact
             </a>
           </li>

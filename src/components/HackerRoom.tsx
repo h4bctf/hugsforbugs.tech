@@ -134,8 +134,7 @@ useEffect(()=>{
       <section ref={refCont} className="w-full h-full">
         {loading && (
           <div className="w-full h-full flex justify-center items-center">
-		
-		  <h1>Loading</h1>
+		  <h1 className="text-white opacity-90">Loading .... </h1>
 	  </div>
         )}
       </section>

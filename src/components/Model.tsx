@@ -1,4 +1,5 @@
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader";
 
 export const LoadGLTFModel = (
   scene: any,
@@ -8,7 +9,9 @@ export const LoadGLTFModel = (
   const { recieveShadow, castShadow } = options;
   return new Promise((resolve, reject) => {
     const loader = new GLTFLoader();
-
+    const draco = new DRACOLoader()
+    draco.setDecoderPath("https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/js/libs/draco/")
+    loader.setDRACOLoader(draco)
     loader.load(
       glbpath,
       (gltf) => {
@@ -18,7 +21,7 @@ export const LoadGLTFModel = (
         obj.position.y = 0;
         obj.receiveShadow = recieveShadow;
         obj.castShadow = castShadow;
-        obj.scale.set(0.19,0.19,0.19)
+        obj.scale.set(0.195,0.195,0.195)
         scene.add(obj);
 
         obj.traverse(function (child) {

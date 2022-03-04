@@ -7,7 +7,7 @@ dist-ssr
 .vercel
 Modal
 
-textures
+
 .env
 .env.production
 .env.local
