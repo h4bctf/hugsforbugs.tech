@@ -3,7 +3,7 @@ import { MutableRefObject, useEffect ,useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 
 
-const Profile = () => {
+const Profile: React.FC = () => {
 	const TiltingCard = useRef() as MutableRefObject<HTMLDivElement>;
 
 	useEffect(()=>{

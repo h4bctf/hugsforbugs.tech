@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Profile from "./Profile";
 import "../styles/Team.scss"
 
-const Team = () => {
+const Team: React.FC = () => {
   return (
     <>
       <AnimatePresence>
