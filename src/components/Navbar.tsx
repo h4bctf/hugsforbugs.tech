@@ -40,21 +40,21 @@ import {Link} from "react-router-dom";
       <div>
         <ul className="hidden justify-evenly font-mono font-extrabold sm:flex">
           <li className="px-3">
-          <Link to="/" className='cursor-pointer text-white opacity-75 hover:opacity-100'>Home</Link> 
+          <Link to="/" className='cursor-pointer text-white md:text-lg opacity-75 hover:opacity-100'>Home</Link> 
           </li>
           <li className="px-3">
-            <a href="#About" className="cursor-pointer text-white opacity-70  hover:opacity-100">
+            <a href="/#About" className="cursor-pointer text-white md:text-lg opacity-70  hover:opacity-100">
            About 
             </a>
           </li>
           <li className="px-3">
-              <Link to="/team" className='cursor-pointer text-white opacity-75 hover:opacity-100'>Team</Link>
+              <Link to="/team" className='cursor-pointer text-white md:text-lg opacity-75 hover:opacity-100'>Team</Link>
           </li>
           <li className="px-3">
-          <Link to="/blog" className='cursor-pointer text-white opacity-75 hover:opacity-100'>Blog</Link> 
+          <Link to="/blog" className='cursor-pointer text-white opacity-75 md:text-lg hover:opacity-100'>Blog</Link> 
           </li>
           <li className="px-3">
-          <Link to="/contact" className="cursor-pointer text-white opacity-75 hover:opacity-100">Contact Us</Link>
+          <Link to="/contact" className="cursor-pointer text-white opacity-75 md:text-lg hover:opacity-100">Contact Us</Link>
           </li>
         </ul>
         <div className="flex sm:hidden">

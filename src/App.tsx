@@ -13,7 +13,6 @@ function App() {
       <Route path="/" element={<HomePage/>} /> 
       <Route path="/team" element={<Team/>} />
     </Routes>
-
    </>
   );
 }
