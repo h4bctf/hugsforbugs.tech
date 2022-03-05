@@ -20,7 +20,7 @@ const Team = () => {
                   These are the fronters of Community
                 </h2>
               </div>
-	      <div className="w-full  h-5/6 grid grid-cols-1 justify-items-center grid-rows-5 gap-y-16 sm:grid-rows-2 sm:gap-y-8 sm:grid-cols-3 sm:gap-x-11">
+	      <div className="w-full  h-5/6 grid grid-cols-1 justify-items-center grid-rows-5 gap-y-32 sm:grid-rows-2 sm:gap-y-8 sm:grid-cols-3 sm:gap-x-11">
 		     <Profile />
 		     <Profile />
 		     <Profile />

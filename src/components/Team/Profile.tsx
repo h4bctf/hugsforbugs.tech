@@ -12,7 +12,7 @@ const Profile = () => {
 	 
   return (
 	 <>
-           <div  id="#idk" ref={TiltingCard}  className="h-[20rem] sm:h-[22rem] w-10/12 bg-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-50 ">
+           <div  id="#idk" ref={TiltingCard}  className="h-[22rem] w-4/6 sm:w-3/4 sm:h-[22rem]  bg-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-50 ">
 		  
 	   </div>
 
