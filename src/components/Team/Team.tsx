@@ -25,7 +25,7 @@ const Team: React.FC = () => {
 		     <Profile src="https://cdn.discordapp.com/avatars/706545436831514647/f0e5a8e306034c2b7d54e62675019291.webp?size=240" />
 		     <Profile  src="https://cdn.discordapp.com/attachments/949990378323468329/949991760535384074/uzui.png"/>
 		     <Profile src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg"/>
-		     <Profile />
+		     <Profile src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg "/>
 	      </div>
           </section>
         </motion.div>

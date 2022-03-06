@@ -7,12 +7,12 @@ section#About::after{
 	height: 15%;
 	background-color:#191a27;
 	z-index: 0;
-	clip-path: polygon(50% 40%, 0 0, 100% 0);
+	clip-path: polygon(50% 60%, 0 0, 100% 0);
 }
 
 @media only screen and (min-width:640px){
 	section#About::after{
 		height: 30%;
-		clip-path: polygon(50%,90% ,0 0, 100% 0);
+		clip-path: polygon(50%,96% ,0 0, 100% 0);
 	}
 }
