@@ -74,13 +74,13 @@ import {Link} from "react-router-dom";
    <div ref={dropRef} className='absolute z-30 top-9 right-0 bg-[#337Bd4]' >
        <ul className="flex flex-col justify-evenly font-mono font-extrabold sm:hidden">
           <li className="px-3  py-1 hover:bg-[#22538f]">
-           <Link to="/#about" className="cursor-pointer text-white text-2xl opacity-100 hover:opacity-80">About</Link>
+           <Link to="/#about" className="cursor-pointer text-white text-xl opacity-100 hover:opacity-80">About</Link>
           </li>
           <li className="px-4 py-2 hover:bg-[#22538f]">
-           <Link to="/team" className="cursor-pointer text-white text-2xl opacity-100 hover:opacity-80">Team </Link> 
+           <Link to="/team" className="cursor-pointer text-white text-xl opacity-100 hover:opacity-80">Team </Link> 
           </li>
           <li className="px-4 py-2 hover:bg-[#22538f]">
-            <Link to="/blog" className='cursor-pointer text-white text-2xl opacity-100 hover:opacity-80'>Blogs</Link>
+            <Link to="/blog" className='cursor-pointer text-white text-xl opacity-100 hover:opacity-80'>Blogs</Link>
           </li>
           <li className="px-4 py-2 hover:bg-[#22538f]">
             <a href="" className="cursor-pointer text-white  opacity-100 text-2xl hover:opacity-80">
