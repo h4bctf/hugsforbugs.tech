@@ -2,8 +2,12 @@ import { MutableRefObject, useEffect ,useRef } from 'react';
 //@ts-ignore
 import VanillaTilt from 'vanilla-tilt';
 
+interface ProfileProps{
+	src: string;
+}
 
-const Profile: React.FC = () => {
+
+const Profile = (props: ProfileProps) => {
 	const TiltingCard = useRef() as MutableRefObject<HTMLDivElement>;
 
 	useEffect(()=>{
@@ -12,8 +16,8 @@ const Profile: React.FC = () => {
 	 
   return (
 	 <>
-           <div  id="#idk" ref={TiltingCard}  className="h-[22rem] w-4/6 sm:w-3/4 sm:h-[22rem]  bg-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-50 ">
-		  
+           <div  id="#idk" ref={TiltingCard}  className="h-[22rem] w-4/6 sm:w-3/4 sm:h-[22rem]  flex flex-col bg-gray-100 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-50 ">
+		  <img className="w-full h-full object-cover" src={props.src} alt="" />
 	   </div>
 
 	 </>

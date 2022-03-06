@@ -1,19 +1,24 @@
 import React from "react";
 import "../styles/About.scss";
 import AboutIllust from "../../assets/undraw_software_engineer_re_fyew.svg";
+import gsap , {Power3} from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const About: React.FC = () => {
+
+
+
   return (
     <section id="About" className="h-screen w-full bg-[#11121A] flex flex-col ">
-  <div className="w-full h-full flex flex-col justify-end sm:justify-center sm:flex sm:items-center">
-      <div className="pt-4 flex flex-col justify-evenly align-center  sm:flex-row ">
+  <div className="w-full h-full flex flex-col justify-center sm:justify-center sm:flex sm:items-center">
+      <div className="pt-4 h-full flex flex-col justify-evenly align-center  sm:flex-row ">
         <div className="w-full  text-center sm:w-1/4 sm:h-full sm:flex sm:justify-center sm:items-center">
           <h1 className="font-['Poppins'] text-[#fff] text-4xl pt-3 sm:text-5xl">
             About Us
           </h1>
         </div>
         <div className=" flex justify-center w-full sm:w-1/2 ">
-          <p className="text-[#d3d3d3] font-['Poppins'] p-4 text-left text-lg sm:text-xl">
+          <p className="text-[#d3d3d3] font-['Poppins'] px-5 sm:px-4 text-left text-lg sm:text-xl">
             HugsForBugs is an international{" "}
             <span className="underline decoration-red-600">community </span>{" "}
             where we compete in{" "}
