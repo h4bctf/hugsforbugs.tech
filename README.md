@@ -13,5 +13,4 @@ Soon Will Gonna Switch to Next.js or Svelete for Blogs
 
 # Major Contributors 
 
- <img src="https://avatars.githubusercontent.com/u/73570165?v=4" />
-
+[![]("https://avatars.githubusercontent.com/u/73570165?v=4" )](https://github.com/remarkablemark/html-react-parser/graphs/contributors)
