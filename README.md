@@ -12,7 +12,7 @@ Soon Will Gonna Switch to Next.js or Svelete for Blogs
 
 # Active Maintainers
 
-#### [Hartaj Singh Sidhu](https://github.com/Hartaj-Singh-Dev) - Maintainer
+#### [Hartaj Singh Sidhu](https://github.com/Hartaj-Singh-Dev) - Lead Maintainer
 
 <img align="left" width="50" height="50" src="https://avatars.githubusercontent.com/u/73570165?v=4">
 
