@@ -10,8 +10,11 @@ Hugs For Bugs CTF Website
 
 Soon Will Gonna Switch to Next.js or Svelete for Blogs
 
-# Major contributors
+# Active Maintainers
 
-*  <a href="https://github.com/Hartaj-Singh-Dev"> <img src="https://avatars.githubusercontent.com/u/73570165?v=4"  width="100" height="100" style="border-radius: 50%"  /> </a>
+#### [Hartaj Singh Sidhu](https://github.com/Hartaj-Singh-Dev) - Maintainer
 
+<img align="left" width="40" height="40" src="https://avatars.githubusercontent.com/u/73570165?v=4">
+
+ Hartaj is MERN with next.js Developer . He's an open-source and Web 3 enthusiast.<br /><br />
 [![]("https://avatars.githubusercontent.com/u/73570165?v=4" )](https://github.com/remarkablemark/html-react-parser/graphs/contributors)
