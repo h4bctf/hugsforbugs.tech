@@ -83,7 +83,7 @@ import {Link} from "react-router-dom";
             <Link to="/blog" className='cursor-pointer text-white text-xl opacity-100 hover:opacity-80'>Blogs</Link>
           </li>
           <li className="px-4 py-2 hover:bg-[#22538f]">
-            <a href="" className="cursor-pointer text-white  opacity-100 text-2xl hover:opacity-80">
+            <a href="" className="cursor-pointer text-white  opacity-100 text-xl hover:opacity-80">
               Contact
             </a>
           </li>

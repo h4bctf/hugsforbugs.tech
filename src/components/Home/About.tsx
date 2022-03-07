@@ -1,12 +1,31 @@
-import React from "react";
+import React, { MutableRefObject, useEffect, useRef } from "react";
 import "../styles/About.scss";
 import AboutIllust from "../../assets/undraw_software_engineer_re_fyew.svg";
 import gsap , {Power3} from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const About: React.FC = () => {
+  gsap.registerPlugin(ScrollTrigger);
+ const introductionP =   useRef() as MutableRefObject<HTMLParagraphElement>
 
+ useEffect(()=>{
 
+  const introP = gsap.fromTo(introductionP.current,{
+    opacity:0,
+    y:80,
+  },{
+    opacity:1,
+    duration:0.5 ,
+    y:0,
+    ease:Power3.easeIn,
+    scrollTrigger:{trigger:introductionP.current}
+
+  })
+
+  return(()=>{
+    introP.kill()
+  })
+ },[])
 
   return (
     <section id="About" className="h-screen w-full bg-[#11121A] flex flex-col ">
@@ -18,7 +37,7 @@ const About: React.FC = () => {
           </h1>
         </div>
         <div className=" flex justify-center w-full items-center  sm:w-1/2 ">
-          <p className="text-[#d3d3d3] font-['Poppins'] px-5 sm:px-4 text-left text-lg sm:text-xl">
+          <p  ref={introductionP} className="text-[#d3d3d3] font-['Poppins'] px-5 sm:px-4 text-left text-lg sm:text-xl">
             HugsForBugs is an international{" "}
             <span className="underline decoration-red-600">community </span>{" "}
             where we compete in{" "}

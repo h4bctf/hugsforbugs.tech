@@ -4,6 +4,8 @@ import HomePage from "./components/Home/HomePage";
 import Team from "./components/Team/Team";
 import Blog from "./components/Blog/Blog";
 
+//@ts-ignore
+
 /* #337BD4,#191a27, #11121A, #FFFFFF, #A3A4A8 */
 
 function App() {
