@@ -21,13 +21,13 @@ const Team: React.FC = () => {
                 </h2>
               </div>
 	      <div className="w-full  h-5/6 grid grid-cols-1 justify-items-center gap-y-20 sm:grid-rows-3 sm:gap-y-8 sm:grid-cols-3 sm:gap-x-11">
-		     <Profile name="3xploiter"  src="https://cdn.discordapp.com/attachments/810603326626201604/949858400668356618/IMG_1413.jpg"/>
-		     <Profile  name="3xploiter" src="https://cdn.discordapp.com/avatars/706545436831514647/f0e5a8e306034c2b7d54e62675019291.webp?size=240" />
-		     <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/949990378323468329/949991760535384074/uzui.png"/>
-		          <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg"/>
-		          <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg "/>
-        		     <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg "/>
-		     <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/950284402796142624/1791953.png  "/>
+		     <Profile githubLink="https://github.com/MrsMalware" name="3xploiter"  src="https://cdn.discordapp.com/attachments/810603326626201604/949858400668356618/IMG_1413.jpg"/>
+		     <Profile githubLink="https://github.com/MrsMalware" name="3xploiter" src="https://cdn.discordapp.com/avatars/706545436831514647/f0e5a8e306034c2b7d54e62675019291.webp?size=240" />
+		     <Profile githubLink="https://github.com/MrsMalware" name="3xploiter" src="https://cdn.discordapp.com/attachments/949990378323468329/949991760535384074/uzui.png"/>
+		          <Profile githubLink="https://github.com/MrsMalware" name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg"/>
+		          <Profile githubLink="https://github.com/MrsMalware" name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg "/>
+        		     <Profile githubLink="https://github.com/MrsMalware" name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg "/>
+		     <Profile githubLink="https://github.com/MrsMalware" name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/950284402796142624/1791953.png  "/>
 	      </div> 
           </section>
 
