@@ -27,7 +27,7 @@ const Team: React.FC = () => {
 		          <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg"/>
 		          <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg "/>
         		     <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg "/>
-		     <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/949999935024144414/handgun.jpg "/>
+		     <Profile  name="3xploiter" src="https://cdn.discordapp.com/attachments/810603326626201604/950284402796142624/1791953.png  "/>
 	      </div> 
           </section>
 

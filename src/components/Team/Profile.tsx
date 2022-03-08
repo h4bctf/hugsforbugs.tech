@@ -30,28 +30,29 @@ const Profile = (props: ProfileProps) => {
           src={props.src}
           alt=""
         />
-        <h1 className="text-white font-['Inter'] font-3xl font-extrabold ">
+        <h1 className="text-white font-['Poppins'] text-xl font-extrabold ">
           {props.name}
         </h1>
      </div> 
 
-        <div className="hidden">
-          <h3 className="text-white opacity-95 font-['Montserrat']">
-            {props.name} is lead hacker at h4b Iste facere aperiam assumenda
-            nemo voluptate est sit, repellat vitae repudiandae
-          </h3>
-          <div>
-            {" "}
-            <a
+        <div className="back">
+          <p className=" text-[#111111ec] font-['Montserrat'] text-md font-light opacity-90 ">
+        is lead hacker at h4b , Leading at every CTF's
+          </p>
+          
+          <button>
+		  <a
               href={props.githubLink}
               rel="noreferrer"
               target="_blank"
               className="cursor-pointer"
             >
-              <i className="text-[#f5f5f5] fa-2x fa-brands fa-github"></i>
-            </a>
-          </div>
+              <i className="fa-2x fa-brands fa-github"></i>
+            </a> </button> 
+         
         </div>
+	<div className="background">
+	</div>
       </div>
     </>
   );
