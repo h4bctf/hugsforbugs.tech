@@ -30,13 +30,13 @@ const Profile = (props: ProfileProps) => {
           src={props.src}
           alt=""
         />
-        <h1 className="text-white font-['Poppins'] text-xl font-extrabold ">
+        <h1 className="text-white font-['Poppins'] text-3xl font-bold sm:text-xl ">
           {props.name}
         </h1>
      </div> 
 
         <div className="back">
-          <p className=" text-[#111111ec] font-['Montserrat'] text-md font-light opacity-90 ">
+          <p className=" text-[#111111ec] font-['Montserrat'] text-lg font-light opacity-80 ">
         is lead hacker at h4b , Leading at every CTF's
           </p>
           
@@ -47,7 +47,7 @@ const Profile = (props: ProfileProps) => {
               target="_blank"
               className="cursor-pointer"
             >
-              <i className="fa-2x fa-brands fa-github"></i>
+              <i className="fa-3x fa-brands fa-github"></i>
             </a> </button> 
          
         </div>

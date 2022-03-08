@@ -1,5 +1,5 @@
 div.Card{
-	height: 20rem;
+	height: 22rem;
 	width: 65%;
 	display: flex;
 	flex-direction: column;
@@ -31,13 +31,13 @@ div.Card{
 
 	div.back{
 		height: 70%;
-		width: 94%;
+		width: 90%;
 		display: none;
 		transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
 	        
 		button{
-			height: 2.7rem;
-			width: 2.7rem;
+			height: 3.5rem;
+			width: 3.5rem;
 			cursor: pointer;
 			outline-width: 0;
 			border: none;
@@ -91,6 +91,7 @@ div.Card:hover{
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-evenly;
+
 	}
 	div.background{
 		transform: scale(1);
@@ -102,5 +103,12 @@ div.Card:hover{
 	div#idk{
 		width: 75%;
 		height: 22rem;
+
+		div.back{
+			button{
+				height: 2.5rem;
+				width: 2.5rem;
+			}
+		}
 	}
 }
