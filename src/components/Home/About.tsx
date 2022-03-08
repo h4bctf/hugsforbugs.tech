@@ -12,7 +12,7 @@ const About: React.FC = () => {
 
   const introP = gsap.fromTo(introductionP.current,{
     opacity:0,
-    y:80,
+    y:100,
   },{
     opacity:1,
     duration:0.5 ,
@@ -36,8 +36,8 @@ const About: React.FC = () => {
             About Us
           </h1>
         </div>
-        <div className=" flex justify-center w-full items-center  sm:w-1/2 ">
-          <p  ref={introductionP} className="text-[#d3d3d3] font-['Poppins'] px-5 sm:px-4 text-left text-lg sm:text-xl">
+        <div className=" flex justify-center w-full items-center  sm:w-1/2 overflow-hidden">
+          <p  ref={introductionP} className="text-[#d3d3d3] font-['Montserrat'] px-5 sm:px-4 text-left text-lg sm:text-xl">
             HugsForBugs is an international{" "}
             <span className="underline decoration-red-600">community </span>{" "}
             where we compete in{" "}
