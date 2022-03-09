@@ -6,6 +6,7 @@ interface ProfileProps {
   src: string;
   name: string;
   githubLink: string;
+  description:string
 }
 
 const Profile = (props: ProfileProps) => {
@@ -37,7 +38,7 @@ const Profile = (props: ProfileProps) => {
 
         <div className="back">
           <p className=" text-[#111111ec] font-['Montserrat'] text-lg font-light opacity-80 ">
-        is lead hacker at h4b , Leading at every CTF's
+       {props.description} 
           </p>
           
           <button>

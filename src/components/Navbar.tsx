@@ -71,23 +71,28 @@ import {Link} from "react-router-dom";
                  <i className="fa-solid fa-2x fa-bars text-[#337BD4]"></i>
           </button>
          {openDrop && (
-   <div ref={dropRef} className='absolute z-30 top-9 right-0 bg-[#337Bd4]' >
-       <ul className="flex flex-col justify-evenly font-mono font-extrabold sm:hidden">
-          <li className="px-3  py-1 hover:bg-[#22538f]">
-           <Link to="/#about" className="cursor-pointer text-white text-xl opacity-100 hover:opacity-80">About</Link>
-          </li>
-          <li className="px-4 py-2 hover:bg-[#22538f]">
+   <div ref={dropRef} className='absolute z-30 h-56 w-32 top-9 right-0 bg-[#337Bd4]' >
+       <div className="flex h-full w-full flex-col justify-evenly items-center font-mono font-extrabold sm:hidden">
+          <div className="w-full px-3 py-1 hover:bg-[#22538f]">
+              <Link to="/#about" className="cursor-pointer w-full text-white text-xl opacity-100 hover:opacity-80">
+                About
+                </Link>   
+          </div>
+          <div className="h-[2px] w-[90%] bg-[#ffffffb0]"></div>
+          <div className="w-full px-3 py-2 hover:bg-[#22538f]">
            <Link to="/team" className="cursor-pointer text-white text-xl opacity-100 hover:opacity-80">Team </Link> 
-          </li>
-          <li className="px-4 py-2 hover:bg-[#22538f]">
+          </div>
+          <div className="h-[2px] w-[90%] bg-[#ffffffb0]"></div> 
+          <div className="w-full px-3 py-2 hover:bg-[#22538f]">
             <Link to="/blog" className='cursor-pointer text-white text-xl opacity-100 hover:opacity-80'>Blogs</Link>
-          </li>
-          <li className="px-4 py-2 hover:bg-[#22538f]">
+          </div>
+          <div className="h-[2px] w-[90%] bg-[#ffffffb0]"></div>
+          <div className="w-full px-3 py-2 hover:bg-[#22538f]">
             <a href="" className="cursor-pointer text-white  opacity-100 text-xl hover:opacity-80">
               Contact
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
             </div>
          )} 
           </div> 

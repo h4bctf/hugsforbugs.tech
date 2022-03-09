@@ -5,7 +5,7 @@ div.Card{
 	flex-direction: column;
 	align-items: center;
 	border-radius: 0.6rem;
-	background: #8080804f;
+	background: #80808018;
 	background-clip: padding-box;
 	backdrop-filter: blur(10px);
 
@@ -36,8 +36,8 @@ div.Card{
 		transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
 	        
 		button{
-			height: 3.5rem;
-			width: 3.5rem;
+			height: 3.4rem;
+			width: 3.4rem;
 			cursor: pointer;
 			outline-width: 0;
 			border: none;
@@ -66,7 +66,7 @@ div.Card{
 		width: 100%;
 		z-index: -1;
 		background: rgba(255, 255, 255, 0.897);	
-	        transform: scale(0.01);
+	        transform: scale(0.001);
 		transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
 		border-radius: 0.7rem;
 	}
