@@ -1,9 +1,10 @@
-import React ,{Suspense ,  useRef} from "react";
+import React from "react";
 // import { Canvas, useFrame } from "@react-three/fiber";
 // import { useLoader } from '@react-three/fiber'
 // import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import "../styles/Banner.scss";
 import HackerRoom from "../HackerRoom";
+
 
 // const Modal = () =>{
 //   const gltf = useLoader(GLTFLoader,'/scene.gltf')
