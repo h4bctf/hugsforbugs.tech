@@ -28,7 +28,7 @@ const About: React.FC = () => {
  },[])
 
   return (
-    <section id="About" className="h-screen w-full bg-[#11121A] flex flex-col ">
+    <section id="About" className="h-[120vh] w-full bg-[#11121A] flex flex-col ">
   <div className="w-full h-full flex flex-col justify-center sm:justify-center sm:flex sm:items-center">
       <div className="pt-4 h-full flex flex-col justify-evenly align-center  sm:flex-row ">
         <div className="w-full  text-center sm:w-1/4 sm:h-full sm:flex sm:justify-center sm:items-center">

@@ -100,7 +100,7 @@ div.Card:hover{
 
 @media (min-width:640px) {
 	div#idk{
-		width: 75%;
+		width: 95%;
 		height: 22rem;
 
 		div.back{
@@ -109,5 +109,11 @@ div.Card:hover{
 				width: 2.5rem;
 			}
 		}
+	}
+}
+
+@media (min-width:1000px) {
+	div#idk{
+		width: 75%;
 	}
 }
