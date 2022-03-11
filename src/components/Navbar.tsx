@@ -91,7 +91,10 @@ import {Link} from "react-router-dom";
           </div>
           <div className="h-[2px] w-[90%] bg-[#ffffffb0]"></div>
           <div className="w-full px-3 py-2 hover:bg-[#22538f]">
-            <a href="mailto:max.mustermann@example.com" className="cursor-pointer text-white  opacity-100 text-xl hover:opacity-80">
+            <a href="#" onClick={(e)=>{
+            window.location.href="mailto:hugsforbugs@protonmail.com";
+            e.preventDefault()
+        }}   className="cursor-pointer text-white  opacity-100 text-xl hover:opacity-80">
               Contact
             </a>
           </div>
