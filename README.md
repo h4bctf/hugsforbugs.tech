@@ -18,3 +18,5 @@ Soon Will Gonna Switch to Next.js or Svelete for Blogs
 
  Hartaj is MERN with next.js Developer , open-source and Web 3 enthusiast.<br /><br />
 
+
+This project has MIT License
