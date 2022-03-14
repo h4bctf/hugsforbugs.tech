@@ -1,10 +1,11 @@
 import React, { MutableRefObject, useEffect, useRef } from "react";
 import "../styles/About.scss";
-import AboutIllust from "../../assets/undraw_software_engineer_re_fyew.svg";
+import aboutill from "./aboutpage.svg";
 import gsap , {Power3} from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const About: React.FC = () => {
+
   gsap.registerPlugin(ScrollTrigger);
  const introductionP =   useRef() as MutableRefObject<HTMLParagraphElement>
 
@@ -55,7 +56,7 @@ const About: React.FC = () => {
         </div>
       </div>
       <div className="w-full h-1/4  flex justify-center  p-4 sm:h-1/2 sm:hidden ">
-        <img src={AboutIllust} alt="" className="h-auto w-full max-w-full " />
+        <img src={aboutill} alt="" className="h-auto w-full max-w-full " />
       </div> 
     </div> 
     </section>
