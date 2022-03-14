@@ -48,7 +48,7 @@ const banner: React.FC = () => {
       className="HomepageCont "
     >
       <div className=" text-center flex w-full justify-center sm:items-end flex-wrap flex-col sm:flex-row">
-        <h1 className="text-5xl font-['Inter'] font-extrabold text-[#ffffff] sm:text-8xl sm:text-extrabold ">Segmentation <span className="bg-clip-text text-transparent bg-gradient-to-tl from-[#1a4e8f] to-[#64a8fa] " >Fault</span></h1>
+        <h1 id="headingbanner" className="text-5xl font-['Inter'] font-extrabold text-[#ffffff] sm:text-8xl sm:text-extrabold ">Segmentation <span className="bg-clip-text text-transparent bg-gradient-to-tl from-[#1a4e8f] to-[#64a8fa] " >Fault</span></h1>
         <img src="https://readme-typing-svg.herokuapp.com?color=%23337BD4&size=60&vCenter=true&height=30&width=230&lines=+........" alt="" />
       </div>
 

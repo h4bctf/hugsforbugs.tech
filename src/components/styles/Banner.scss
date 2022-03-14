@@ -8,6 +8,11 @@ div.HomepageCont{
 	justify-content: end;
 	align-items: center;
 	background-color: #191a27;
+	
+	h1#headingbanner {
+  text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+
 
 	img.Typingheading{
 		width: 100%;
