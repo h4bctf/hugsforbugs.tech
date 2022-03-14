@@ -10,8 +10,11 @@ div.HomepageCont{
 	background-color: #191a27;
 	
 	h1#headingbanner {
-          text-shadow: 0 0 30px rgba(192, 219, 255, 0.623), 0 0 22px rgb(65 120 255 / 24%);
-  }
+          text-shadow: 0 0 15px rgba(192, 219, 255, 0.623), 0 0 22px rgb(65 120 255 / 24%);
+		span{
+			text-shadow: none;
+		}
+	}
 
 
 	img.Typingheading{
