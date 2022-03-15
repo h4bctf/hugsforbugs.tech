@@ -1,4 +1,4 @@
-# hugsforbugs.tech
+## hugsforbugs.tech
 Hugs For Bugs CTF Website
 
 * TypeScript
@@ -9,8 +9,9 @@ Hugs For Bugs CTF Website
 
 
 Soon Will Gonna Switch to Next.js or Svelete for Blogs
+<hr>
 
-# Active Maintainers
+## Active Maintainers
 
 #### [Hartaj Singh Sidhu](https://github.com/Hartaj-Singh-Dev) - Lead Maintainer
 
@@ -19,4 +20,9 @@ Soon Will Gonna Switch to Next.js or Svelete for Blogs
  Hartaj is MERN with next.js Developer , open-source and Web 3 enthusiast.<br /><br />
 
 
-This project has MIT License
+
+> This project is under MIT License
+
+
+## Contributions
+ > please follow full code of conduct , you can fork this repo and create your own branch and pull requests 
