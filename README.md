@@ -15,10 +15,9 @@ Soon Will Gonna Switch to Next.js or Svelete for Blogs
 
 #### [Hartaj Singh Sidhu](https://github.com/Hartaj-Singh-Dev) - Lead Maintainer
 
-<img align="left" width="50" height="50" src="https://avatars.githubusercontent.com/u/73570165?v=4">
+> <img align="left" width="50" height="50" src="https://avatars.githubusercontent.com/u/73570165?v=4">Hartaj is MERN with next.js Developer , open-source and Web 3 enthusiast.
 
- Hartaj is MERN with next.js Developer , open-source and Web 3 enthusiast.
-
+<br>
 <hr>
 
 
