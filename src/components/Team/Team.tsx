@@ -17,7 +17,7 @@ const Team: React.FC = () => {
               </div>
               <div className="w-full text-center  mt-2 mb-4 p-2 sm:mb-0 sm:p-2">
                 <h2 className="text-white font-['Inter'] text-2xl opacity-80 font-extralight">
-                  These are the fronters of Community
+                  These are the Leading Members of Community
                 </h2>
               </div>
 	      <div className="w-full  h-5/6  grid grid-cols-1 justify-items-center gap-y-20 sm:mt-4 sm:grid-rows-2 sm:grid-cols-3 ">
