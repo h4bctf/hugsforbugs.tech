@@ -1,4 +1,4 @@
-## hugsforbugs.tech
+## Hugsforbugs.tech
 Hugs For Bugs CTF Website
 
 * TypeScript
@@ -22,6 +22,8 @@ Soon Will Gonna Switch to Next.js or Svelete for Blogs
 
 ## 📰 License
 > The **[hugsforbugs](https://www.hugsforbugs.tech/)** project is released under the [MIT license](LICENSE.md). <br> Developed &amp; maintained By Web Developer's at H4B. Copyright 2022 © HugsForBugs.
+
+<br>
 
 ## Contributions
  > please follow full code of conduct , you can fork this repo and create your own branch and pull requests 
